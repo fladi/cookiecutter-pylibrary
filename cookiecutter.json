@@ -1,8 +1,8 @@
 {
-    "full_name": "Ionel Cristian Maries",
-    "email": "contact@ionelmc.ro",
-    "website": "https://blog.ionelmc.ro",
-    "github_username": "ionelmc",
+    "full_name": "Michael Fladischer",
+    "email": "michael@openservices.at",
+    "website": "https://openservices.at",
+    "github_username": "fladi",
     "project_name": "Nameless",
     "repo_name": "python-{{ cookiecutter.project_name|lower|replace(' ','-') }}",
     "package_name": "{{ cookiecutter.project_name|lower|replace(' ','_')|replace('-','_') }}",
@@ -42,6 +42,6 @@
     "sphinx_theme": ["sphinx-rtd-theme", "sphinx-py3doc-enhanced-theme"],
     "sphinx_doctest": ["no", "yes"],
     "travis": ["yes", "no"],
-    "appveyor": ["yes", "no"],
+    "appveyor": ["no", "yes"],
     "requiresio": ["yes", "no"]
 }
